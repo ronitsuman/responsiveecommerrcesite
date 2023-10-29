@@ -33,7 +33,7 @@ h6{
 
 }
 p{
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(150, 16, 16);
     margin: 40px 0 20px 0;
  
@@ -128,12 +128,14 @@ body{
 }
 #hero button {
     background-image: url(image/newbtn.png) ;
+    font-style: italic;
     color: black;
-    border: 1;
+    border: 0;
     padding: 8px 20px 1px 100px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 20px;
 }
 
+style="font-size:24px"
