@@ -137,5 +137,11 @@ body{
     font-weight: 800;
     font-size: 20px;
 }
-
-style="font-size:24px"
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #4d7067;
+    
+}
