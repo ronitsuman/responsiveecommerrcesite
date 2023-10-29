@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+big{
+    color: rgb(33, 177, 53);
+    font-weight: 100;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(24, 141, 43);
+
+}
+h2{
+    font-size: 46px;
+    line-height: 80px;
+    color: rgb(209, 105, 56);
+
+}
+h4{
+    font-size: 20px;
+    color: rgb(59, 170, 87);
+    align-items: center;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+
+}
+p{
+    font-size: 30px;
+    color: rgb(150, 16, 16);
+    margin: 40px 0 20px 0;
+ 
+
+}
+.section-p1{
+    padding: 40px 80px;
+
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+/* to set the header or edit header element header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+}
+/* for change in nav bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 20px;
+
+}
+/* for change in nav bar list */
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    transition: 0.3sec;
+
+}
+/* to addd a hover means a line where the ,mouse was entered */
+#navbar li a:hover{
+    color: brown;
+
+}
+#navbar li a.active{
+    color: rgb(84, 167, 84);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "" ;
+    width: 30%;
+    height: 2px;
+    background: green;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#hero{
+    background-image: url(image/pain.png);
+    height: 100vh;
+    width: 100%;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: top 25% left 100% ;
+    padding: 10 80px;
+    display: flex-start;
+    flex-direction: column;
+    justify-content: right;
+}
