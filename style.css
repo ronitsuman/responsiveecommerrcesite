@@ -107,8 +107,6 @@ body{
 }
 #hero{
     background-image: url(image/joint.png ) ;
-    background-attachment: scroll;
-
     image-resolution: cover;
     height: 90vh;
     width: 100%;
