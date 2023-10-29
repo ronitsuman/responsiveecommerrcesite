@@ -131,7 +131,7 @@ body{
     background-image: url(image/newbtn.png) ;
     font-style: italic;
     color: black;
-    border: 0;
+    border: 0px;
     padding: 8px 20px 1px 100px;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -143,6 +143,6 @@ body{
     text-align: center;
     padding: 359px 80px;
     box-shadow: 359px 80px 54px rgba(0, 0, 0, 0.03);
-    border: 1px solid #4d7067;
+    border: 0p solid #4d7067;
     
 }
