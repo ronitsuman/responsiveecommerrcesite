@@ -40,7 +40,8 @@ p{
 
 }
 .section-p1{
-    padding: 40px 80px;
+
+padding: 359px 50px;
 
 }
 .section-m1{
@@ -140,8 +141,8 @@ body{
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    padding: 359px 80px;
+    box-shadow: 359px 80px 54px rgba(0, 0, 0, 0.03);
     border: 1px solid #4d7067;
     
 }
