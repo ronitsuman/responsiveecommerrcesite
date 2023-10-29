@@ -106,7 +106,9 @@ body{
     left: 20px;
 }
 #hero{
-    background-image: url(image/pain.png);
+    background-image: url(image/joint.png ) ;
+    background-attachment: scroll;
+
     image-resolution: cover;
     height: 90vh;
     width: 100%;
@@ -126,14 +128,14 @@ body{
 #hero h1{
     color: green;
 }
-#hero button{
-    background-image: url(image/newbtn.png);
-    
-    color: rgb(33, 26, 39);
-    border: 0;
-    padding: 10px 80px 14px 65px;
+#hero button {
+    background-image: url(image/newbtn.png) ;
+    color: black;
+    border: 1;
+    padding: 8px 20px 1px 100px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 22px;
 }
+
