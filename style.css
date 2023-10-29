@@ -56,7 +56,11 @@ body{
     justify-content: space-between;
     padding: 0px 0px;
     background-color: aliceblue;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 /* for change in nav bar  */
 #navbar{
@@ -120,8 +124,13 @@ body{
     color: green;
 }
 #hero button{
-    background-image: url("image/button.png") ;
-    background-color: transparent;
-    color: #088178;
-    border: 0;
+    background-image: url(image/button.png);
+    background-color: pink;
+    color: blueviolet;
+    border: 39;
+    padding: 10px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
