@@ -128,7 +128,7 @@ body{
 }
 #hero button{
     background-image: url(image/newbtn.png);
-    background-color: pink;
+    
     color: rgb(33, 26, 39);
     border: 0;
     padding: 10px 80px 14px 65px;
