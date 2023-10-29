@@ -112,3 +112,16 @@ body{
     flex-direction: column;
     justify-content: right;
 }
+#hero h4{
+    padding-bottom: 15x;
+
+}
+#hero h1{
+    color: green;
+}
+#hero button{
+    background-image: url("image/button.png") ;
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+}
