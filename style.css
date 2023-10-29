@@ -54,8 +54,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 0px;
-    background-color: aliceblue;
+    padding: 0px 0px ;
+    background-color: rgb(186, 194, 201);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
