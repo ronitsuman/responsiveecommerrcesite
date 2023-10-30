@@ -128,10 +128,10 @@ body{
     color: green;
 }
 #hero button {
-    background-image: url(image/newbtn.png) ;
+    background-image: url(image/shop.png) ;
     font-style: italic;
     color: black;
-    border: 0px;
+    border: 1px solid black;
     padding: 8px 20px 1px 100px;
     background-repeat: no-repeat;
     cursor: pointer;
