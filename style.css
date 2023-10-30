@@ -131,18 +131,36 @@ body{
     background-image: url(image/shop.png) ;
     font-style: italic;
     color: black;
-    border: 1px solid black;
-    padding: 8px 20px 1px 100px;
+    border: 0px;
+
+    padding: 15px 30px px 20px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 800;
     font-size: 20px;
+/* i am unable to create a box in a free shipping icon */
 }
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 359px 80px;
-    box-shadow: 359px 80px 54px rgba(0, 0, 0, 0.03);
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 0p solid #4d7067;
-    
+    border-radius: 4px;
+    margin: 15px 0;    
+}
+#feature .fe-box :hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 211, 0.1);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+#feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
 }
